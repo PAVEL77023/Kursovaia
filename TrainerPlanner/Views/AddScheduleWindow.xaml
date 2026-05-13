@@ -1,0 +1,75 @@
+﻿<Window x:Class="TrainerPlanner.Views.AddScheduleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Новое занятие" 
+        Height="500" 
+        Width="450"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Новое занятие" FontWeight="Bold" FontSize="16" Grid.Row="0" Margin="0,0,0,15"/>
+
+        <TextBlock Text="Тренер:" Grid.Row="1" Margin="0,0,0,5"/>
+        <ComboBox x:Name="CbTrainer" Grid.Row="2" Height="30" DisplayMemberPath="FullName"/>
+
+        <TextBlock Text="Дата и время:" Grid.Row="3" Margin="0,15,0,5"/>
+        <DatePicker x:Name="DpDate" Grid.Row="4" SelectedDate="{Binding Today}" Height="30"/>
+        <StackPanel Grid.Row="5" Orientation="Horizontal" Margin="0,5,0,0">
+            <TextBlock Text="С" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <ComboBox x:Name="CbStartHour" Width="60"/>
+            <TextBlock Text=":" VerticalAlignment="Center" Margin="5,0,5,0"/>
+            <ComboBox x:Name="CbStartMinute" Width="60"/>
+            <TextBlock Text="до" VerticalAlignment="Center" Margin="15,0,5,0"/>
+            <ComboBox x:Name="CbEndHour" Width="60"/>
+            <TextBlock Text=":" VerticalAlignment="Center" Margin="5,0,5,0"/>
+            <ComboBox x:Name="CbEndMinute" Width="60"/>
+        </StackPanel>
+
+        <TextBlock Text="Тип занятия:" Grid.Row="6" Margin="0,15,0,5"/>
+        <ComboBox x:Name="CbType" Grid.Row="7" Width="150" Height="30" Margin="0,0,10,0">
+            <ComboBoxItem Content="Групповое"/>
+            <ComboBoxItem Content="Персональное"/>
+        </ComboBox>
+
+        <!-- ФИО клиента -->
+        <TextBlock Text="ФИО клиента(ов):" Grid.Row="8" Margin="0,2,0,1"/>
+        <TextBox x:Name="TbClientName" 
+                 Grid.Row="9" 
+                 Width="350"
+                 HorizontalAlignment="Left"
+                 Text="Введите ФИО клиента(ов)" 
+                 Foreground="#888"
+                 GotFocus="TbClientName_GotFocus"
+                 LostFocus="TbClientName_LostFocus" 
+                 Margin="0,21,0,10"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto"
+                 TextWrapping="Wrap"/>
+
+        <!-- Кнопка сохранить -->
+        <Button Content="Сохранить" Click="BtnSave_Click" 
+                Grid.Row="10" 
+                Width="250"  
+                Height="50"
+                Margin="0,15,0,0"
+                Background="#FF4CAF50" 
+                Foreground="White" 
+                FontWeight="Bold"
+                HorizontalAlignment="Center"/>
+    </Grid>
+</Window>

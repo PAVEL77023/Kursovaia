@@ -1,0 +1,350 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|d:\\\u043A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\trainerplanner\\trainerplanner\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\views\\addschedulewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\views\\addschedulewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\services\\sqlschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\services\\sqlschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\models\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\models\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\models\\scheduleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\models\\scheduleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\views\\addtrainerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\views\\addtrainerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\commands\\addschedulecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\commands\\addschedulecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\views\\addschedulewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\views\\addschedulewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\views\\addtrainerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\views\\addtrainerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\services\\itrainerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\services\\itrainerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\services\\trainerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\services\\trainerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\image1.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\image1.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\services\\ischedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\services\\ischedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\41f3991a1e606c4091a1ec834297b3119e76e073aa13ccfd04a06d41f346efbd\\WpfXamlLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\trainerplanner\\data\\data.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EB68A9AA-63D5-4E9B-BD1A-9F2C129D706E}|TrainerPlanner\\TrainerPlanner.csproj|solutionrelative:trainerplanner\\data\\data.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 143,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\App.xaml",
+              "RelativeDocumentMoniker": "TrainerPlanner\\App.xaml",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\App.xaml",
+              "RelativeToolTip": "TrainerPlanner\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-24T12:45:00.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\App.xaml.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\App.xaml.cs",
+              "RelativeToolTip": "TrainerPlanner\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T13:58:42.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddTrainerWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Views\\AddTrainerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Views\\AddTrainerWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Views\\AddTrainerWindow.xaml.cs",
+              "RelativeToolTip": "TrainerPlanner\\Views\\AddTrainerWindow.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T13:08:18.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddTrainerWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Views\\AddTrainerWindow.xaml",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Views\\AddTrainerWindow.xaml",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Views\\AddTrainerWindow.xaml",
+              "RelativeToolTip": "TrainerPlanner\\Views\\AddTrainerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-23T13:07:44.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IScheduleRepository.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Services\\IScheduleRepository.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Services\\IScheduleRepository.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Services\\IScheduleRepository.cs",
+              "RelativeToolTip": "TrainerPlanner\\Services\\IScheduleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T11:38:19.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WpfXamlLoader.cs",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\41f3991a1e606c4091a1ec834297b3119e76e073aa13ccfd04a06d41f346efbd\\WpfXamlLoader.cs",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\.vsdbgsrc\\41f3991a1e606c4091a1ec834297b3119e76e073aa13ccfd04a06d41f346efbd\\WpfXamlLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T10:32:39.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TrainerPlanner\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T10:20:54.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TrainerPlanner\\MainWindow.xaml",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\MainWindow.xaml",
+              "RelativeToolTip": "TrainerPlanner\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-02T17:43:30.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TrainerService.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Services\\TrainerService.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Services\\TrainerService.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Services\\TrainerService.cs",
+              "RelativeToolTip": "TrainerPlanner\\Services\\TrainerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T13:26:35.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ITrainerService.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Services\\ITrainerService.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Services\\ITrainerService.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Services\\ITrainerService.cs",
+              "RelativeToolTip": "TrainerPlanner\\Services\\ITrainerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T13:19:16.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Image1.png",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Image1.png",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Image1.png",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Image1.png",
+              "RelativeToolTip": "TrainerPlanner\\Image1.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-23T14:03:38.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Trainer.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Models\\Trainer.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Models\\Trainer.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Models\\Trainer.cs",
+              "RelativeToolTip": "TrainerPlanner\\Models\\Trainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T14:38:52.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Models\\Client.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Models\\Client.cs",
+              "RelativeToolTip": "TrainerPlanner\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T10:28:02.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "TrainerPlanner\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAYwMIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T17:42:30.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddScheduleWindow.xaml",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Views\\AddScheduleWindow.xaml",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Views\\AddScheduleWindow.xaml",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Views\\AddScheduleWindow.xaml",
+              "RelativeToolTip": "TrainerPlanner\\Views\\AddScheduleWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-02T16:42:18.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddScheduleWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Views\\AddScheduleWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Views\\AddScheduleWindow.xaml.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Views\\AddScheduleWindow.xaml.cs",
+              "RelativeToolTip": "TrainerPlanner\\Views\\AddScheduleWindow.xaml.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwIEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T16:56:50.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "data.xml",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Data\\data.xml",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Data\\data.xml",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Data\\data.xml",
+              "RelativeToolTip": "TrainerPlanner\\Data\\data.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-04-09T16:27:49.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SqlScheduleRepository.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Services\\SqlScheduleRepository.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Services\\SqlScheduleRepository.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Services\\SqlScheduleRepository.cs",
+              "RelativeToolTip": "TrainerPlanner\\Services\\SqlScheduleRepository.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAowKsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T10:19:03.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Services\\DatabaseService.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "TrainerPlanner\\Services\\DatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T10:12:30.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScheduleItem.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Models\\ScheduleItem.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Models\\ScheduleItem.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Models\\ScheduleItem.cs",
+              "RelativeToolTip": "TrainerPlanner\\Models\\ScheduleItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T16:24:10.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddScheduleCommand.cs",
+              "DocumentMoniker": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Commands\\AddScheduleCommand.cs",
+              "RelativeDocumentMoniker": "TrainerPlanner\\Commands\\AddScheduleCommand.cs",
+              "ToolTip": "D:\\\u041A\u0443\u0440\u0441\u0430\u0447\\\u0443\u0447\\TrainerPlanner\\TrainerPlanner\\Commands\\AddScheduleCommand.cs",
+              "RelativeToolTip": "TrainerPlanner\\Commands\\AddScheduleCommand.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T16:37:10.469Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

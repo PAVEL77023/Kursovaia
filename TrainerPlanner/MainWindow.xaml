@@ -1,0 +1,160 @@
+﻿<Window x:Class="TrainerPlanner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:TrainerPlanner.ViewModels"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="TrainerPlanner — Планировщик тренеров" 
+        Height="650" Width="950"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="MaxHeight" Value="60"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+        </Style>
+    </Window.Resources>
+
+    <Window.DataContext>
+        <vm:MainViewModel />
+    </Window.DataContext>
+
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="280"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Левая панель: календарь и тренеры -->
+        <StackPanel Grid.Column="0">
+            <TextBlock Text="Календарь" FontWeight="Bold" FontSize="14" Margin="0,0,0,8"/>
+            <Calendar 
+                SelectedDate="{Binding SelectedDate, Mode=TwoWay}"
+                DisplayDateStart="{x:Static sys:DateTime.Today}"
+                Height="220"
+                Language="ru-RU"/>
+
+            <TextBlock Text="Список тренеров" FontWeight="Bold" FontSize="14" Margin="0,15,0,8"/>
+
+            <!-- Список тренеров с флажками -->
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock Text="Выбрать" FontWeight="Bold" Margin="0,0,0,5"/>
+                <ListBox ItemsSource="{Binding Trainers}" 
+                         Height="180"
+                         SelectionMode="Multiple">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <CheckBox IsChecked="{Binding IsSelected}" 
+                                          Margin="0,0,5,0"/>
+                                <TextBlock Text="{Binding FullName}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+
+            <!-- Кнопки управления тренерами -->
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <Button Content="Добавить тренера" 
+                        Command="{Binding AddTrainerCommand}"
+                        Width="130" Height="30" 
+                        Margin="0,0,10,0"
+                        Background="#FF2196F3" 
+                        Foreground="White"
+                        FontWeight="Bold"/>
+
+                <!-- Кнопка удаления тренеров -->
+                <Button Content="Уволить" 
+                        Command="{Binding DeleteTrainerCommand}"
+                        Width="80" Height="30" 
+                        Background="#FFF44336" 
+                        Foreground="White"
+                        FontWeight="Bold"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Разделитель -->
+        <GridSplitter Grid.Column="1" Width="10" HorizontalAlignment="Stretch"/>
+
+        <!-- Правая панель: расписание -->
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Заголовок -->
+            <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,15">
+                <TextBlock Text="Все занятия" 
+                           FontWeight="Bold" FontSize="16" />
+
+                <!-- Кнопка удаления записей -->
+                <Button Content="Удалить выбранные" 
+                        Command="{Binding DeleteSelectedCommand}"
+                        Width="140" Height="32" 
+                        Margin="20,0,0,0"
+                        Background="#FFF44336" 
+                        Foreground="White"
+                        FontWeight="Bold"
+                        Padding="8,4"/>
+            </StackPanel>
+
+            <!-- Расписание -->
+            <DataGrid ItemsSource="{Binding Schedule}" 
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="False"
+                      IsReadOnly="False"
+                      RowHeight="32"
+                      HeadersVisibility="Column"
+                      GridLinesVisibility="Horizontal"
+                      Grid.Row="1"
+                      CanUserSortColumns="True">
+
+                <!-- Стиль для всплывающих подсказок -->
+                <DataGrid.RowStyle>
+                    <Style TargetType="DataGridRow">
+                        <Setter Property="ToolTip" Value="{Binding ClientName}"/>
+                    </Style>
+                </DataGrid.RowStyle>
+
+                <DataGrid.Columns>
+                    <!-- Колонка с флажками -->
+                    <DataGridCheckBoxColumn Header="Выбрать" 
+                                            Binding="{Binding IsSelected}" 
+                                            Width="60"/>
+
+                    <DataGridTextColumn Header="Дата" 
+                                        Binding="{Binding StartTime, StringFormat=dd.MM.yyyy}" 
+                                        Width="80"/>
+                    <DataGridTextColumn Header="Время" 
+                                        Binding="{Binding DisplayTime}" 
+                                        Width="*"/>
+                    <DataGridTextColumn Header="Тренер" 
+                                        Binding="{Binding TrainerName}" 
+                                        Width="2*"/>
+                    <DataGridTextColumn Header="Клиент" 
+                                        Binding="{Binding ClientName}" 
+                                        Width="200"
+                                        ElementStyle="{StaticResource TextBlockStyle}"/>
+                    <DataGridTextColumn Header="Тип занятия" 
+                                        Binding="{Binding Type}" 
+                                        Width="1.5*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Нижняя панель: кнопка -->
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                <Button Content="Добавить занятие" 
+                        Command="{Binding AddScheduleCommand}"
+                        Width="140" Height="32" 
+                        Background="#FF4CAF50" 
+                        Foreground="White"
+                        FontWeight="Bold"
+                        Padding="8,4"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
