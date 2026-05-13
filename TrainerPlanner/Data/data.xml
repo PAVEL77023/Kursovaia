@@ -1,0 +1,28 @@
+﻿<fitness-center>
+	<trainers>
+		<trainer id="1"
+				 fullName="Иван Петров"
+				 specialization="Бодибилдинг"
+				 phone="+79991234567"
+				 isActive="true"/>
+		<trainer id="2"
+				 fullName="Мария Сидорова"
+				 specialization="Йога"
+				 phone="+79887654321"
+				 isActive="true"/>
+	</trainers>
+	<schedule>
+		<item id="1"
+			  trainerId="1"
+			  startTime="2026-02-15T10:00:00"
+			  endTime="2026-02-15T11:00:00"
+			  type="Групповое"
+			  maxClients="12"/>
+		<item id="2"
+			  trainerId="2"
+			  startTime="2026-02-15T15:00:00"
+			  endTime="2026-02-15T16:00:00"
+			  type="Персональное"
+			  maxClients="1"/>
+	</schedule>
+</fitness-center>
